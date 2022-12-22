@@ -2,7 +2,7 @@
   "name": "beautify",
   "displayName": "Beautify (fork)",
   "description": "Beautify code in place for VS Code",
-  "version": "1.4.12",
+  "version": "2.0.0",
   "publisher": "HookyQR",
   "engines": {
     "vscode": "^1.22.0"
