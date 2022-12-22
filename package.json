@@ -3,7 +3,7 @@
   "displayName": "Beautify",
   "description": "Beautify code in place for VS Code",
   "version": "1.4.12",
-  "publisher": "HookyQR",
+  "publisher": "filiprak",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -220,17 +220,19 @@
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0",
     "typescript": "^2.6.1",
-    "vscode": "~1.1.18"
+    "vscode": "~1.1.18",
+    "vsce": "^2.15.0"
   },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
+    "test": "node ./node_modules/vscode/bin/test",
+		"build": "vsce package"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HookyQR/VSCodeBeautify"
+    "url": "https://github.com/filiprak/VSCodeBeautify"
   },
   "bugs": {
-    "url": "https://github.com/HookyQR/VSCodeBeautify/issues"
+    "url": "https://github.com/filiprak/VSCodeBeautify/issues"
   }
 }
